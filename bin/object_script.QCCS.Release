@@ -1,0 +1,14 @@
+INPUT(
+./release\main.o
+./release\systemTimer.o
+./release\widget.o
+./release\xmlRead.o
+./release\iniRead.o
+./release\computerTable.o
+./release\qrc_qccs.o
+./release\moc_systemTimer.o
+./release\moc_widget.o
+./release\moc_xmlRead.o
+./release\moc_iniRead.o
+./release\moc_computerTable.o
+);

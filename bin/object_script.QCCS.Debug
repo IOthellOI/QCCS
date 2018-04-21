@@ -1,0 +1,14 @@
+INPUT(
+./debug\main.o
+./debug\systemTimer.o
+./debug\widget.o
+./debug\xmlRead.o
+./debug\iniRead.o
+./debug\computerTable.o
+./debug\qrc_qccs.o
+./debug\moc_systemTimer.o
+./debug\moc_widget.o
+./debug\moc_xmlRead.o
+./debug\moc_iniRead.o
+./debug\moc_computerTable.o
+);
