@@ -1,9 +1,10 @@
-#ifndef WIDGET_H
+﻿#ifndef WIDGET_H
 #define WIDGET_H
 
 #include <QWidget>
 #include <QCloseEvent>
 #include <QSystemTrayIcon>
+#include <QApplication>
 
 class Widget : public QWidget
 {
@@ -18,6 +19,8 @@ private:
 
 private slots:
     void slotTroyActivated(QSystemTrayIcon::ActivationReason _reason);
+    void slotShowAction();
+    void slotExitAction();
 
 private:
     struct WidgetPrivate;

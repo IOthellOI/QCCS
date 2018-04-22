@@ -42,3 +42,5 @@ HEADERS += \
 
 RESOURCES += \
     qccs.qrc
+
+DISTFILES +=
