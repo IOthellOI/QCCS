@@ -15,6 +15,13 @@ public:
 public:
     void loadIni(const QString & _path);
 
+    QSize windowFormSize();
+    QString localIpAddress();
+    QString localIpPort();
+    QString iosIpAddress();
+    QString iosIpPort();
+
+private:
 	struct IniReadPrivate;
     IniReadPrivate * data;
 };

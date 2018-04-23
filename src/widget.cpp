@@ -101,7 +101,9 @@ void Widget::slotExitAction()
     box.setWindowIcon(QIcon(":icon"));
     if (box.exec() == QMessageBox::Yes)
     {
+        data->tray->hide();
         QApplication * app;
         app->quit();
+        exit(0);
     }
 }
